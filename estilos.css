@@ -399,7 +399,7 @@ footer p{
 
 /** TABLET **/  
 @media (max-width:952px){
-    .enlace{
+    #enlace{
         padding-left: 20px;
     }
     nav ul li a{
