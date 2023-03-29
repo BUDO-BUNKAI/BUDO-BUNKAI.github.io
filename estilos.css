@@ -76,12 +76,12 @@ body{
 
 /** HEADER **/
 header {
-    width: 100%;
-    height:750px;
     background-image: url("king-of-martial-arts-wallpaper.jpg"); 
-    background-size: cover; 
-    background-position: center center;
-    background-repeat: no-repeat;
+    background-repeat:no-repeat;
+    background-size:contain;
+    background-position:center;
+    background-size: 100%;
+    height: 900px;
 }
 
 header section{
@@ -326,7 +326,10 @@ footer p{
     display:none;
 }  
 
-/** TABLET **/  
+/*** MEDIA QUERIES ***/
+
+/** NAV **/
+/** tablet **/  
 @media (max-width:1012px){
     #enlace{
         padding-left: 20px;
@@ -338,8 +341,7 @@ footer p{
         font-size: 115%;
     }
 }
-
-/** MOVIL **/
+/** movil **/
 @media (max-width:894px){
     .checkbtn{
         display:block;
@@ -375,8 +377,17 @@ footer p{
     }
 }
 
+/** HEADER **/
+/** movil **/
+@media (max-width:393px){
+    header h1{
+        font-size: 300%;
+    }
+}
+
+
 /** #tienda**/
-@media (max-width:1829px){
+/* @media (max-width:1829px){
 
     #tienda #articulosTienda #articulo1,#articulo2,#articulo3,#articulo4{
         width: calc(100% - 80%);    
@@ -385,4 +396,4 @@ footer p{
     #tienda #articulosTienda #articulo1{
         margin-left: 4%;
     }
-}
+} */
