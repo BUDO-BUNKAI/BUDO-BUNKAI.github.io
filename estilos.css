@@ -1,0 +1,388 @@
+/*-----------------------------------------------------------------------------------------------------------------------------------------*/
+/*** RESETEO PROPIEDADES ***/
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/*-----------------------------------------------------------------------------------------------------------------------------------------*/
+
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+/** MENU **/
+#menu{
+    height: 228px;
+    background-color:#740303 ;
+    text-align: center;    
+}
+
+#menu img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 15px;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    width:290px;
+    height:150px;
+}
+
+#menu ul li{
+    display: inline-block;
+    margin-top: 15px;
+    padding: 0 40px 27px 40px;
+}
+
+#menu ul li:hover > ul {
+    background-color: #714f34;
+    display:block;
+    border:2px solid #5c040456;
+}
+
+#menu ul li a{
+    color:black;
+    text-decoration: none;
+    font-size: 115%;
+}
+
+#menu ul li ul{
+    position: absolute;
+    display: none;
+    margin-top: 8px;
+}
+
+#menu ul li ul li{
+    display: block;
+    padding: 10px 45px 10px 45px;
+}
+
+#menu ul li ul li a{
+    padding: 10px 10px 10px 10px;
+    color:black;
+    text-decoration:none;
+    font-weight:400;
+    font-size:15px;
+    padding:10px;
+    letter-spacing:1px;
+}
+
+#menu ul li a:hover {
+    font-weight: bold;
+    background-color: #6b6b6b56;
+}
+
+/** HEADER **/
+header {
+    width: 100%;
+    height:750px;
+    background-image: url("king-of-martial-arts-wallpaper.jpg"); 
+    background-size: cover; 
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+header section{
+    padding-top: 320px;
+}
+
+header h1{
+    color:white;
+    font-weight: bolder;
+    font-size: 450%;
+    text-align: center;
+}
+
+/*** SECTION ULTIMASENTRADAS***/
+#ultimasEntradas{ 
+    position: relative;
+    height: 750px;
+    background-color: black;    
+}
+
+#ultimasEntradas h2{
+    padding-top: 40px;
+    font-weight: 1000;
+    font-size: 170%;
+}
+
+#ultimasEntradas h3{
+    margin-top: 10px;
+   padding-bottom:30px;
+}
+
+#ultimasEntradas h2, h3{
+    color:white;
+    text-align:center;
+}
+
+#ultimasEntradas a{
+    text-decoration: underline;
+    color:white;
+    font-size: 130%;
+}
+
+#ultimasEntradas #pelis{
+    position: absolute;
+    top: 390px;
+    left: 4%;
+}
+
+#ultimasEntradas #noticias{
+    position: absolute;
+    top: 390px;
+    right: 37%;
+}
+
+#ultimasEntradas img{
+    height: 500px;
+    width: 50%;
+}
+
+#ultimasEntradas #imagen2{
+    float:right;
+}
+
+/*** SECTION TIENDA ***/
+#tienda{
+    position: relative;
+    height: 750px;
+    background-image: url("fondotienda.png"); 
+    background-size: cover; 
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+#tienda h2{
+    padding-top: 50px;
+    color:white;
+    text-align:center;
+    font-weight: bolder;
+    font-size: 250%;
+    text-decoration: underline;
+}
+
+#tienda #articulosTienda{
+    margin-left: 2.8%;
+}
+
+#tienda #articulosTienda article{
+    margin: 80px 1.5% 0px 1.5%;
+    float: left;    
+}
+
+#tienda #articulosTienda article img{
+    height: 430px;
+    width: 100%;
+}
+#tienda #articulosTienda article a{
+   text-decoration: underline;
+    color: white;
+}
+
+#tienda #articulosTienda article p{
+    color: white;
+}
+
+/*** SECTION SOBRE NOSOTROS ***/
+#sobreNosotros{
+    clear:left;
+    position: relative;
+    height: 700px;
+    background-image: url("jigoro-kano_edited_edited_edited_edited.jpg"); 
+    background-size: cover; 
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+#sobreNosotros img{
+    position:absolute;
+    top: 150px;
+    right: 340px;
+    width:34%;
+    height:400px;
+}
+
+#sobreNosotros h2{
+    position:absolute;
+    top: 250px;
+    right: 465px;
+    color:black;
+    font-weight: bolder;
+    font-size: 250%;
+}
+
+#sobreNosotros #masInformacion{
+    position:absolute;
+    top: 350px;
+    right: 440px;
+    color:black;
+    font-size: 110%;
+    text-align: center;
+}
+
+#sobreNosotros a{
+    position:absolute;
+    top: 450px;
+    right: 620px;
+    color:black;
+    font-size: 110%;
+    text-decoration: underline;
+}
+
+/*** FOOTER ***/
+footer{
+    position: relative;
+    height: 340px;
+    background-color:#740303 ;
+}
+
+footer #footer1{
+    position: absolute;
+    top:127px;
+    left:87px;
+    width: 3.5%;
+    height: 50px;
+}
+
+footer #footer2{
+    position: absolute;
+    top:127px;
+    left:165px;
+    width: 2.7%;
+    height: 50px;
+}
+
+footer #footer3{
+    position: absolute;
+    top:127px;
+    left:237px;
+    width: 3%;
+    height: 50px;
+}
+
+footer #footer4{
+    position: absolute;
+    top:127px;
+    left:317px;
+    width: 3%;
+    height: 50px;
+}
+
+footer #footer5{
+    position: absolute;
+    top:127px;
+    left:397px;
+    width: 3.8%;
+    height: 50px;
+}
+
+footer #logo{
+    position: absolute;
+    top:83px;
+    left:41.5%;
+    width:18%;
+    height:120px;
+}
+
+footer #metodosdepago{
+    position: absolute;
+    top:95px;
+    right:100px;
+    width: 17%;
+    height: 120px;
+}
+
+footer a{
+    position: absolute;
+    top:207px;
+    left:170px;
+    color: white;
+    text-decoration: underline;
+}
+
+footer p{
+    position: absolute;
+    top:300px;
+    right:750px;
+    color: white;
+}
+
+/** RESPONSIVE **/
+/** #menu**/
+.checkbtn{
+    font-size: 30px;
+    color: white;
+    float: right;
+    line-height: 228px;
+    margin-right: 40px;
+    cursor:pointer;
+    display:none;
+}
+
+#check{
+    display:none;
+}  
+
+/** TABLET **/  
+@media (max-width:1012px){
+    #enlace{
+        padding-left: 20px;
+    }
+    #menu ul li {
+        padding: 10px 30px 10px 30px;
+    }
+    #menu ul li a{
+        font-size: 115%;
+    }
+}
+
+/** MOVIL **/
+@media (max-width:894px){
+    .checkbtn{
+        display:block;
+    }
+    ul{
+        position: absolute;
+        width: 100%;
+        height: 100vh;
+        background: #714f34;
+        top: 228px;
+        left: -100%;
+        text-align: center;
+        transition: all .5s;
+    }
+    #menu ul li{
+        display: block;
+        margin: 50px 0;
+        line-height: 30px;
+    }
+    #menu ul li a{
+        font-size: 20px;
+    }
+    li a:hover, li a.active{
+        background: none;
+        color: red;
+    }
+    #check:checked ~ ul{
+        left:0;
+    }
+
+    header h1{
+        font-size: 350%;
+    }
+}
+
+/** #tienda**/
+@media (max-width:1829px){
+
+    #tienda #articulosTienda #articulo1,#articulo2,#articulo3,#articulo4{
+        width: calc(100% - 80%);    
+    }
+
+    #tienda #articulosTienda #articulo1{
+        margin-left: 4%;
+    }
+}
