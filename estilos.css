@@ -379,7 +379,7 @@ footer p{
 
 /** HEADER **/
 /** movil **/
-@media (max-width:393px){
+@media (max-width:894px){
     header h1{
         font-size: 300%;
     }
